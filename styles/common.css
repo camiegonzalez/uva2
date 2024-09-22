@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #EDDAE1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #000;
+    font-family: "Sansita", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-block: 0px;
+}
+
+h2 {
+    color: #000;
+    font-family: "Sansita", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-block: 0px;
+
+}
+
+h3 {
+    color: #000;
+    font-family: "Sansita", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block: 0px;
+}
+
+h4 {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 500;
+    line-height:normal;
+    margin-block: 0px;
+}
+
+p {
+    color: #000;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 117.17%;
+    margin-block: 0px;
+    /* 37.494px */
+}
+
+header {
+    height: 80px;
+    background-color: #BF4158;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+
+header img {
+    width: 81px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 24px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 40px;
+    background-color: #BF4158;
+}
+
+footer img {
+    width: 71px;
+}
+
+.footerLists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLists li ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.footerLists li ul li {
+    margin-inline: 25px;
+}
+
+.footerLists li ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}

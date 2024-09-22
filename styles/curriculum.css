@@ -1,0 +1,92 @@
+.curriculumsection h1{
+    margin-block: 30px;
+    align-self: center;
+}
+.curriculumsection h2{
+    margin-block: 20px;
+}
+
+.curriculumsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 60px;
+}
+
+#explaborallist{
+    list-style:none;
+    padding-inline: 0px;
+}
+
+#explaborallist ul{
+    padding-inline: 0px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+#explaborallist li ul li{
+    margin-block: 2px;
+}
+
+.curriculumsection h3 {
+    margin-bottom: 5px;
+}
+.curriculumsection h4 {
+    margin-bottom: 15px;
+}
+
+.curriculumsection li{
+    color: #000;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 117.17%;
+    margin-block: 0px;
+}
+
+#educacion{
+    background-color: #F2C2CF;
+}
+
+#educacion ul{
+    list-style: none;
+    padding-inline: 0px;
+}
+
+#habilidadeslist ul{
+    list-style: none;
+    padding-inline: 0px;
+    margin-bottom: 30px;
+}
+
+#descargacv{
+    background-color: #F2C2CF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#descargacv h3{
+    margin-block: 30px;
+}
+
+#descargacv button{
+    width: 300px;
+    height: 60px;
+    background-color: #ED3261;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 117.17%;
+    margin-block: 0px;
+}
+
+
+
+

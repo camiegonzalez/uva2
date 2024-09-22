@@ -1,0 +1,57 @@
+#presentacion {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 60px;
+    margin-block: 30px;
+}
+
+#presentacion article {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#presentacion img {
+    width: 315px;
+    height: 423px;
+    flex-shrink: 0;
+    border-radius: 25px;
+}
+
+#presentacion h2 {
+    margin-bottom: 10px;
+}
+
+#logros {
+    display: flex;
+    padding-inline: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2C2CF;
+    height: 400px;
+}
+
+#logros h2 {
+    margin-bottom: 20px
+}
+
+#logros p {
+    flex-shrink: 0;
+    text-align: justify;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 117.17%;
+}
+
+#logros section {
+    width: 600px;
+
+}
+
+#line {
+    width: 4px;
+    height: 320px;
+    background-color: black;
+}
