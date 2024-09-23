@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,50 +6,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Camila González</title>
-
-    <!-- CSS Propios -->
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <link rel="stylesheet" type="text/css" href="styles/common.css" />
     
-    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="imagenes/CG.png" />
+        <img src="imagenes/CG.png" alt="Logo Camila Gonzalez" />
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="sobre_mi.html">Sobre mí</a>
-                </li>
-                <li>
-                    <a href="curriculum.html">Currículum</a>
-                </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="habilidades.html">Habilidades</a>
-                </li>
-                <li>
-                    <a href="certificaciones.html">Certificaciones</a>
-                </li>
+            <div class="menu-icon" id="menu-icon">
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre_mi.html">Sobre mí</a></li>
+                <li><a href="curriculum.html">Currículum</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="presentacion">
-            <img src="imagenes/foto_perfil.jpg" />
+            <img src="imagenes/foto_perfil.jpg" alt="Foto de perfil Camila Gonzalez" />
             <article>
                 <section>
                     <h1>Camila González</h1>
@@ -57,10 +43,8 @@
                 <section>
                     <h2>Presentación</h2>
                     <p>
-                        Soy Camila González, estudiante de la carrera de Licenciatura en Gestión de la Tecnología de la Información
-                        en UADE. Actualmente trabajo como asistente de marketing en una empresa de finanzas y tecnología. Mi formación académica y mi
-                        experiencia laboral me han permitido desarrollar habilidades clave en el ámbito de la tecnología y el
-                        marketing
+                        Soy Camila González, estudiante de la carrera de Licenciatura en Gestión de la Tecnología de la Información en UADE. 
+                        Actualmente trabajo como asistente de marketing en una empresa de finanzas y tecnología. Mi formación académica y mi experiencia laboral me han permitido desarrollar habilidades clave en el ámbito de la tecnología y el marketing.
                     </p>
                 </section>
             </article>
@@ -69,66 +53,51 @@
             <section>
                 <h2>Logros</h2>
                 <p>
-                    He complementado mis estudios con un curso de Python en Coderhouse, lo que me ha permitido adquirir
-                    conocimientos prácticos en programación, un área que me apasiona y en la que busco seguir creciendo.
+                    He complementado mis estudios con un curso de Python en Coderhouse, lo que me ha permitido adquirir conocimientos prácticos en programación, un área que me apasiona y en la que busco seguir creciendo.
                 </p>
             </section>
             <div id="line"></div>
             <section>
-                <h2>¿Qué busco?</h2>
+                <h2>Objetivo</h2>
                 <p>
-                    Estoy en búsqueda de mi primer puesto en el área de it, en donde me gustaría aplicar todos mis
-                    conocimientos y poder desarrollarme en proyectos innovadores que impulsen la tecnología como motor de
-                    cambio.
+                    Estoy en búsqueda de mi primer puesto en el área de IT, donde aplicar todos mis conocimientos y poder desarrollarme en proyectos innovadores que impulsen la tecnología como motor de cambio.
                 </p>
             </section>
         </section>
     </main>
     <footer>
         <ul class="footerLists">
-            <li>
-                <img src="imagenes/CG.png" />
-            </li>
+            <li><img src="imagenes/CG.png" alt="Logo Camila Gonzalez" /></li>
             <li>
                 <ul>
-                    <li>
-                        <a href="sobre_mi.html">Sobre mí</a>
-                    </li>
-                    <li>
-                        <a href="curriculum.html">Currículum</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="habilidades.html">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="certificaciones.html">Certificaciones y Reconocimientos</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre_mi.html">Sobre mí</a></li>
+                    <li><a href="curriculum.html">Currículum</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank">Instagram</a>
+                <ul id="redesList">
+                    <li><a href="https://www.instagram.com/camiiigonzalez.15" target="_blank"><img src="imagenes/ig.png" alt="" class="logosRedes"></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank">Linkedin</a>
+                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank"><img src="imagenes/lk.png" alt="" class="logosRedes"></a>
                     </li>
-                    <li><a href="https://api.whatsapp.com/send?phone=5491156910574" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5491156910574" target="_blank"><img src="imagenes/wp.png" alt="" class="logosRedes"></a></li>
                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=camilaeligonzalez@gmail.com"
-                            target="_blank">Mail</a></li>
+                            target="_blank"><img src="imagenes/gmail.png" alt="" class="logosRedes"></a></li>
                 </ul>
             </li>
         </ul>
-
-
     </footer>
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const menu = document.getElementById('menu');
+        
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>

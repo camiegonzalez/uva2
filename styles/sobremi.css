@@ -1,0 +1,43 @@
+#sobreMiBiografia p {
+    margin-top: 0;
+}
+
+#mainSobreMi h1 {
+    margin-top: 30px;
+}
+
+.sobreMiSection {
+    padding-inline: 60px;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sobreMiSection section {
+    display: flex;
+    align-items: center;
+}
+
+.sobreMiSection img {
+    margin-right: 10px;
+}
+
+.sobreMiSection p {
+    margin-top: 20px;
+}
+
+#formacionAca {
+    background-color: #D98BA0;
+}
+
+#objetivos {
+    background-color: #F2C2CF;
+}
+
+@media screen and (max-width: 768px) {
+    .sobreMiSection img {
+        width: 30%;
+    }
+}
