@@ -1,0 +1,124 @@
+#formularioContactoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.formLabel {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.formInput {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 300px;
+}
+
+.formTextArea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+
+.submit-btn {
+    background-color: #ED3261;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.submit-btn:hover {
+    background-color: #bf2a4d;
+}
+
+#contactoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 60px;
+}
+
+#contactoMain h1 {
+    margin-top: 30px;
+
+}
+
+#contactoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#contactoSection section {
+    margin-top: 20px;
+    margin-inline: 50px;
+}
+
+.datosContactoList {
+    margin-bottom: 30px;
+}
+.datosContactoList li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.datosContactoList img {
+    margin-right: 10px;
+    height: 25px;
+    width: 26px;
+}
+
+.datosContactoList a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.datosContactoList p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #contactoSection{
+        flex-direction: column;
+    }
+
+    #contactoSection section {
+        margin-top: 5px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+}

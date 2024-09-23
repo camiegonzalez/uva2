@@ -1,125 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/contacto.css" />
     <link rel="stylesheet" type="text/css" href="styles/common.css" />
     <title>Contacto</title>
 </head>
+
 <body>
     <header>
-        <img src="imagenes/CG.png" />
+        <img src="imagenes/CG.png" alt="Logo Camila Gonzalez" />
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="sobre_mi.html">Sobre mí</a>
-                </li>
-                <li>
-                    <a href="curriculum.html">Currículum</a>
-                </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="habilidades.html">Habilidades</a>
-                </li>
-                <li>
-                    <a href="certificaciones.html">Certificaciones</a>
-                </li>
+            <div class="menu-icon" id="menu-icon">
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+                <span class="menu-icon-bar"></span>
+            </div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre_mi.html">Sobre mí</a></li>
+                <li><a href="curriculum.html">Currículum</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Contacto</h1>
-            <h2>Contactame</h2> 
-                <form> 
-                    <label for="fname">Nombre y Apellido:</label>
-                    <br> <input type="text" id="fname" name="fname" ><br>
-                    <br> <label for="telf">Télefono (Con código de área):</label>
-                    <br> <input type="text" id="telf" name="telf" ><br>
-                    <br> <label for="mail">Mail:</label>
-                    <br> <input type="text" id="mail" name="mail" ><br>
-                    <br> <label for="asunto">Asunto:</label>
-                    <br> <input type="asunto" id="asunto" name="asunto" ><br>
-                    <br> <label for="descripcion">Descripción:</label>
-                    <br> <input type="text" id="descripcion" name="descripcion" ><br>
-                    <br> <input type="submit" value="Enviar"> 
-                </form> 
-        </section>
-        <section>
-            <h2>¡Conectate conmigo!</h2>
-            <p>
-                Además de este formulario, me podés encontrar en mis redes sociales. ¡No dudes en enviarme un mensaje!
-            </p>
-                <ul>
-                    <li>Linkedin: camila-gonzalez-b84741218</li>
-                    <li>WhatsApp: +549-1156910574</li>
-                    <li>Mail: camilaeligonzalez@gmail.com</li>
+    <main id="contactoMain">
+        <h1>Contacto</h1>
+        <section id="contactoSection">
+            <section id="formularioContactoSection">
+                <h2>Dejame tu mensaje</h2>
+                <form>
+                    <label for="nombre" class="formLabel">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" class="formInput">
+
+                    <label for="telefono" class="formLabel">Télefono (Con código de área):</label>
+                    <input type="text" id="telefono" name="telefono" class="formInput">
+
+                    <label for="mail" class="formLabel">Mail:</label>
+                    <input type="text" id="mail" name="mail" class="formInput">
+
+                    <label for="asunto" class="formLabel">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" class="formInput">
+
+                    <label for="descripcion" class="formLabel">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" class="formTextArea"></textarea>
+
+                    <input type="submit" value="Enviar" class="submit-btn">
+                </form>
+            </section>
+            <section id="datosPersonales">
+                <h3>Redes sociales</h3>
+                <ul class="datosContactoList">
+                    <li><a href="https://www.instagram.com/camiiigonzalez.15" target="_blank"><img src="imagenes/ig.png" alt="" class="logosRedes"><p>Camila Gonzalez</p></a></li>
+                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank"><img src="imagenes/lk.png" alt="" class="logosRedes"><p>Camila Gonzalez</p></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5491156910574" target="_blank"><img src="imagenes/wp.png" alt="" class="logosRedes"><p>(+54) 1156910574</p></a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=camilaeligonzalez@gmail.com" target="_blank"><img src="imagenes/gmail.png" alt="" class="logosRedes"><p>camilaeligonzalez@gmail.com</p></a></li>
                 </ul>
+            </section>
         </section>
     </main>
     <footer>
         <ul class="footerLists">
-            <li>
-                <img src="imagenes/CG.png" />
-            </li>
+            <li><img src="imagenes/CG.png" alt="Logo Camila Gonzalez" /></li>
             <li>
                 <ul>
-                    <li>
-                        <a href="sobre_mi.html">Sobre mí</a>
-                    </li>
-                    <li>
-                        <a href="curriculum.html">Currículum</a>
-                    </li>
-                    <li>
-                        <a href="servicios.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="habilidades.html">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="certificaciones.html">Certificaciones y Reconocimientos</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre_mi.html">Sobre mí</a></li>
+                    <li><a href="curriculum.html">Currículum</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank">Instagram</a>
+                <ul id="redesList">
+                    <li><a href="https://www.instagram.com/camiiigonzalez.15" target="_blank"><img src="imagenes/ig.png" alt="" class="logosRedes"></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank">Linkedin</a>
+                    <li><a href="https://www.linkedin.com/in/camila-gonzalez-b84741218/" target="_blank"><img src="imagenes/lk.png" alt="" class="logosRedes"></a>
                     </li>
-                    <li><a href="https://api.whatsapp.com/send?phone=5491156910574" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5491156910574" target="_blank"><img src="imagenes/wp.png" alt="" class="logosRedes"></a></li>
                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=camilaeligonzalez@gmail.com"
-                            target="_blank">Mail</a></li>
+                            target="_blank"><img src="imagenes/gmail.png" alt="" class="logosRedes"></a></li>
                 </ul>
             </li>
         </ul>
-
-
-    </footer>    
+    </footer>
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const menu = document.getElementById('menu');
+        
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
+
 </html>
